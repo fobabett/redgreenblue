@@ -1,2 +1,19 @@
 @import "partials/settings";
 @import "../bower_components/foundation/scss/foundation";
+
+.color_block {
+  padding: 50px;
+  background-color: #EEE;
+  &#red {
+    border-color: #C71C1C;
+    background-color: #F7B2B2; 
+  }
+  &#green {
+    border-color: #4A7026;
+    background-color: #D3EDBB;
+  }
+  &#blue {
+    border-color: #B3E4F2;
+    background-color: #0F6985;
+  }
+}
